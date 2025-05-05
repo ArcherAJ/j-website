@@ -3,7 +3,7 @@ function emojiClicked(emoji) {
 
     // Show a message after emoji clicked
     if (emoji === '😊') {
-        messageDiv.textContent = "MISS YOU BABE!!! 😭";
+        messageDiv.textContent = "MISS YOU MACHANNN!!! 😭";
         messageDiv.style.display = "block";
     } else if (emoji === '😢') {
         messageDiv.textContent = "IT WORKED!😭";
