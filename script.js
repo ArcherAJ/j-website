@@ -3,13 +3,13 @@ function emojiClicked(emoji) {
 
     // Show a message after emoji clicked
     if (emoji === '😊') {
-        messageDiv.textContent = "Aww, I miss you too! 😭";
+        messageDiv.textContent = "MISS YOU MACHAN!!! 😭";
         messageDiv.style.display = "block";
     } else if (emoji === '😢') {
-        messageDiv.textContent = "You're making me emotional! 😭";
+        messageDiv.textContent = "IT WORKED! 😭";
         messageDiv.style.display = "block";
     } else if (emoji === '❤️') {
-        messageDiv.textContent = "❤️ I miss you soooo much!! ❤️";
+        messageDiv.textContent = "❤️ I like you soooo much SHEJITHEYYY!! ❤️";
         messageDiv.style.display = "block";
     }
 }
