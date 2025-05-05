@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#emoji-container {
+    margin: 20px;
+}
+
+.emoji {
+    font-size: 40px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.emoji:hover {
+    transform: scale(1.2);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #FF6347;
+    font-weight: bold;
+    display: none;
+}
+
