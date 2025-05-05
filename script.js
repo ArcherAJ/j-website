@@ -6,7 +6,7 @@ function emojiClicked(emoji) {
         messageDiv.textContent = "MISS YOU MACHAN!!! 😭";
         messageDiv.style.display = "block";
     } else if (emoji === '😢') {
-        messageDiv.textContent = "IT WORKED! 😭";
+        messageDiv.textContent = "IT WORKED!😭";
         messageDiv.style.display = "block";
     } else if (emoji === '❤️') {
         messageDiv.textContent = "❤️ I like you soooo much SHEJITHEYYY!! ❤️";
